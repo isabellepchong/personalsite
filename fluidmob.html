@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+
+  <!-- Fancy Font -->
+  <link href='http://fonts.googleapis.com/css?family=Oleo+Script' rel='stylesheet' type='text/css'>
+  <link href = 'css.css' rel= 'stylesheet' type = 'text/css'>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel = "canonical" href = "http://isabelleparischong.com/fluid.html">
+
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+  <script type="text/javascript">
+    $(window).on('load resize',function(){
+        if($(window).width() >= 950){
+            window.location = "fluid.html"
+        }
+    });
+  </script>
+
+  <title>★Portfolio: Fluid Simulator★</title>
+</head>
+<body>
+  <script>document.body.className += ' fade-out';</script>
+
+  <div class = "backbutton">
+    <a href = "portfolio.html">&larr; Back to Portfolio</a>
+  </div>
+
+   <section id = "fluid_title_page" class = "demo">
+    <div class = "fluid_title-mob">
+      <h2>2D Grid-Based Fluid Simulator</h2>
+    </div>
+    <a href = "#overview_page_fluid-mob"><span></span>Overview</a>
+  </section>
+
+  <section id = "overview_page_fluid-mob" class = "demo">
+    <div class = "overview_fluid_title-mob">
+      <h2>Overview</h2>
+    </div>
+    <a href = "#paperfluid-mob"><span></span>Project Report</a>
+  </section>
+  <div class = "overview_fluid_info" align = "center">
+    <p align = "center" style = "font-size:14px;">This project was the final project for the class 6.837: Computer Graphics. It took a two person team 2.5 weeks to complete. Fluids can be quite difficult to procedurally animate, especially for grid-based designs, because they rely on an Eulerian rather than a Lagrangian model. Our goal for this project was to create a 2D grid-based fluid solver that would follow the Eulerian model to update the different values in its voxel grid, creating a stable, incompressible 2D fluid simulation. Our particular approach was based off of Jos Stam's "Real Time Fluid Dynamics for Games" (2003), creating a fluid motion model that simulated the dropping of a dye into a fluid under a variety of conditions.</p>
+  </div>
+
+  <section id = "paperfluid-mob" class = "demo">
+    <div class = "paperfluid_title-mob">
+      <h2>Project Report</h2>
+    </div>
+    <a href = "#galleryfluid-mob"><span></span>Demonstration</a>
+  </section>
+  <div class = "paperfluid_info-mob" align="center">
+  <a href = "http://isabelleparischong.com/6.837%20Project%20Writeup.pdf"> <u>View Project Report Here </u></a>
+</div>
+
+
+<section id = "galleryfluid-mob" class = "demo">
+  <div class = "galleryfluid_title">
+    <h2>Demonstration</h2>
+  </div>
+
+  <div class = "video_fluid-mob">
+      <iframe width="400" height="200" src="https://www.youtube.com/embed/gPU3y67FkMM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <iframe width="400" height="200" src="https://www.youtube.com/embed/lnt-czuSEaE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <iframe width="400" height="200" src="https://www.youtube.com/embed/XcR6pkNVc_s" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <div class = "video_fluid_caption-mob">
+        <p style = "text-align:center; font-size:13px;">From left to right: general fluid motion and collision with objects, dam breaking, and wind vortex simulations</p>
+      </div>
+    </div>
+
+  <a href = "#fluid_title_page"><span></span>Back to Top</a>
+</section>
+
+  <!-- Optional JavaScript -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+<script src = "personal.js"></script>
+</body>
+</html>
