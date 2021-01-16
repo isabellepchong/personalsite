@@ -93,12 +93,21 @@ section {
 	top:0;
 }
 
+.container-picture>img {
+  object-fit:cover;
+}
+
+.container-picture-mob>img {
+  object-fit:contain;
+}
+
 .container-picture {
     height: 95%; 
     width:50%;
     position:absolute;
     top:5%;
     z-index:1;
+    align-content: center;
 }
 
 .container-picture-mob {
@@ -485,6 +494,13 @@ table{
 	color:white;
 }
 
+.education-info-college-mob{
+  position:absolute;
+  top:130%;
+  width:100%;
+  color:white;
+}
+
 .education-info-hs{
 	position:absolute;
 	top:160%;
@@ -492,6 +508,12 @@ table{
 	color:white;
 }
 
+.education-info-hs-mob{
+  position:absolute;
+  top:160%;
+  width:100%;
+  color:white;
+}
 
 .resume-left{
 	position:absolute;
@@ -2910,7 +2932,6 @@ table{
   -webkit-transform: translate(-50%, 0%);
   transform: translate(-50%, 0%);
 }
-
 .mario_title-mob{
   position:absolute;
   top:30%;
@@ -3421,6 +3442,16 @@ table{
 
 }
 
+.overview_fluid_info-mob{
+  position:absolute;
+  top:125%;
+  left:50%;
+  width:80%;
+  -webkit-transform: translate(-50%, 0%);
+  transform: translate(-50%, 0%);
+
+}
+
 #overview_page_fluid a {
   padding-top: 70px;
 }
@@ -3699,18 +3730,23 @@ table{
 
 .video_fluid-mob{
   position:absolute;
+  display: flex row;
   top:30%;
   left:50%;
-  width:400px;
+  align-items: center;
   -webkit-transform: translate(-50%, 0%);
   transform: translate(-50%, 0%);
 }
 
+.videobox-mob{
+  margin: auto;
+}
+
 .video_fluid_caption-mob{
   position:absolute;
-  top:102%;
+  top:82%;
   left:50%;
-  width: 100%;
+  width: 80%;
   -webkit-transform: translate(-50%, 0%);
   transform: translate(-50%, 0%);
 }
