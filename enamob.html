@@ -32,142 +32,157 @@
     <a href = "portfolio.html">&larr; Back to Portfolio</a>
   </div>
 
-  <section id = "ena_title_page" class = "demo">
-    <div class = "ena_title-mob">
-      <h2>Electronic Navigational Aid for the Blind (ENA)</h2>
-    </div>
-    <a href = "#overview_page_ena-mob"><span></span>Overview</a>
-  </section>
+  <div class = "ena_page">
+    <section id = "ena_title_page-mob" class = "demo">
+      <div class = "ena_title-mob" style="text-align:center;">
+        <h2>Electronic Navigational Aid for the Blind (ENA)</h2>
+      </div>
+      <div class = "downbutton">
+        <a href = "#overview_page_ena-mob"><span></span>Overview</a>
+      </div>
+    </section>
 
-  <section id = "overview_page_ena-mob" class = "demo">
-    <div class = "overview_ena_title-mob">
-      <h2>Overview</h2>
+    <section id = "overview_page_ena-mob" class = "demo">
+      <div class = "overview_ena_title-mob">
+        <h2>Overview</h2>
+      </div>
+      <div class = "overview_ena_subtitle-mob">
+        <h6 style="text-align:center;">(scroll until next arrow if needed)</h6>
+      </div>
+      <div class = "overview_ena_info-mob" align = "center">
+      <p align = "center" style = "font-size:16px;">This project was done as part of a three year program at my high school, the Authentic Science Research program. In the program, students got to pick a topic and then come up with a research project of their own to work on with a mentor in the field for three years, submitting to various competitions at the end of the journey. As a sophomore who was just beginning the program, I knew that I wanted to do something in the field of engineering, but I didn't know what. The worlds of popular culture and invention often intersect. For instance, the design of the flip phone was based on the <i>Star Trek</i> communicator. My project was similarly based on a piece of science fiction media. While I was contemplating the future of my project, I happened to catch an episode of the USA original series <i>Covert Affairs</i>. On the show, a CIA agent named Auggie uses a laser cane apparatus to navigate. While the laser cane on the show is pretty clearly a laser pointer prop, I started thinking about the possibiity of such a device in the real world. The result was my hand-held electronic navigational aid. I enterred this project into the Regeneron Science Talent Search (STS), where I was a semifinalist scholar, and the International Science and Engineering Fair (ISEF), where I was a finalist.</p>
+      <img src = "auggie.jpg" height = "125px">
     </div>
-    <div class = "overview_ena_subtitle-mob">
-      <h6>(scroll until next arrow)</h6>
+    <div class = "downbutton">
+      <a href = "#abstract-mob"><span></span>Abstract</a>
     </div>
-    <a href = "#abstract-mob"><span></span>Abstract</a>
-  </section>
-  <div class = "overview_ena_info-mob" align = "center">
-    <p align = "center" style = "font-size:14px;">This project was done as part of a three year program at my high school, the Authentic Science Research program. In the program, students got to pick a topic and then come up with a research project of their own to work on with a mentor in the field for three years, submitting to various competitions at the end of the journey. As a sophomore who was just beginning the program, I knew that I wanted to do something in the field of engineering, but I didn't know what. The worlds of popular culture and invention often intersect. For instance, the design of the flip phone was based on the <i>Star Trek</i> communicator. My project was similarly based on a piece of science fiction media. While I was contemplating the future of my project, I happened to catch an episode of the USA original series <i>Covert Affairs</i>. On the show, a CIA agent named Auggie uses a laser cane apparatus to navigate. While the laser cane on the show is pretty clearly a laser pointer prop, I started thinking about the possibiity of such a device in the real world. The result was my hand-held electronic navigational aid. I enterred this project into the Regeneron Science Talent Search (STS), where I was a semifinalist scholar, and the International Science and Engineering Fair (ISEF), where I was a finalist.</p>
-    <img src = "auggie.jpg" height = "125px">
-  </div>
+    </section>
+    
+    <section id = "abstract-mob" class = "demo">
+      <div class = "abstract_title-mob">
+        <h2>Abstract</h2>
+      </div>
+      <div class = "abstract_subtitle-mob">
+        <h6 style="text-align:center;">(scroll until next arrow if needed)</h6>
+      </div>
+      <div class = "abstract_info-mob" align = "center">
+      <p align = "center" style = "font-size:16px;">The current navigation aid of choice for the blind is the white cane, which, although lightweight and easy to acquire, has a limited range and requires extensive training to use. While Electronic Navigational Aids (ENAs) have been developed to improve upon the white cane, the need for certain environmental conditions and preconfigured infrastructure in some approaches (e.g., radio frequency identification and structured light) remains an issue. My objectives were to (1) design the conceptual and mathematical methodology of an ENA for device location and obstacle detection without the use of preconfigured infrastructure, (2) build an ENA by combining a Laser Range Finder (LRF) and an Inertial Navigation System (INS), (3) code a real-time algorithm for obstacle detection and Kalman filtering in C++, and (4) test my ENA’s functionality from both an engineering and human subjects standpoint to obtain quantitative and qualitative feedback. The completed ENA can detect obstacles within a six meter range without preconfigured infrastructure, raising an alarm to the user through sound and haptic feedback if an obstacle has been detected. This device has the potential to provide a robust alternative method of blind navigation in the future.</p>
+    </div>
+    <div class = "downbutton">
+      <a href = "#paper-mob"><span></span>Research Paper</a>
+    </div>
+    </section>
 
-  <section id = "abstract-mob" class = "demo">
-    <div class = "abstract_title-mob">
-      <h2>Abstract</h2>
-    </div>
-    <div class = "abstract_subtitle-mob">
-      <h6>(scroll until next arrow)</h6>
-    </div>
-    <a href = "#paper-mob"><span></span>Research Paper</a>
-  </section>
-  <div class = "abstract_info-mob" align = "center">
-    <p align = "center" style = "font-size:14px;">The current navigation aid of choice for the blind is the white cane, which, although lightweight and easy to acquire, has a limited range and requires extensive training to use. While Electronic Navigational Aids (ENAs) have been developed to improve upon the white cane, the need for certain environmental conditions and preconfigured infrastructure in some approaches (e.g., radio frequency identification and structured light) remains an issue. My objectives were to (1) design the conceptual and mathematical methodology of an ENA for device location and obstacle detection without the use of preconfigured infrastructure, (2) build an ENA by combining a Laser Range Finder (LRF) and an Inertial Navigation System (INS), (3) code a real-time algorithm for obstacle detection and Kalman filtering in C++, and (4) test my ENA’s functionality from both an engineering and human subjects standpoint to obtain quantitative and qualitative feedback. The completed ENA can detect obstacles within a six meter range without preconfigured infrastructure, raising an alarm to the user through sound and haptic feedback if an obstacle has been detected. This device has the potential to provide a robust alternative method of blind navigation in the future.</p>
-  </div>
+    <section id = "paper-mob" class = "demo">
+      <div class = "paper_title-mob">
+        <h2>Research Paper</h2>
+      </div>
+      <div class = "paper_info-mob" align="center">
+        <a href = "http://isabelleparischong.com/researchpaper.pdf"> <u>View Research Paper Here </u></a>
+      </div>
+      <div class = "downbutton">
+        <a href = "#gallery-mob"><span></span>Photo Gallery</a>
+      </div>
+    </section>
 
-  <section id = "paper-mob" class = "demo">
-    <div class = "paper_title-mob">
-      <h2>Research Paper</h2>
+  <section id = "gallery-mob" class = "demo">
+    <div class = "gallery_title-mob">
+      <h2>Photo Gallery</h2>
     </div>
-    <a href = "#gallery-mob"><span></span>Photo Gallery</a>
+
+    <div class = "gallery_content-mob">
+      <div class = "ena_scad-mob" style = "font-size: 16px; text-align:center;">
+        <div class = "project_widget-mob">
+          <img src = "woofie-scad.jpg" height="100%" width="100%">
+        </div>
+        CAD sketch of ENA design.
+      </div>
+
+      <div class = "ena_full-mob" style = "font-size: 16px; text-align: center;">
+        <div class = "project_widget-mob">
+          <img src = "ena.jpg" height="100%" width="100%">
+        </div>
+        Full view of ENA.
+      </div>
+
+      <div class = "ena_full_flip-mob" style = "font-size: 16px; text-align: center;">
+          <div class = "project_widget-mob">
+            <img src = "enaflip.jpg" height="100%" width="100%">
+          </div>
+          Flipped view of ENA.
+      </div>
+
+      <div class = "ena_top-mob" style = "font-size: 16px;">
+          <div class = "project_widget-mob">
+            <img src = "enatop.jpg" height="40%" width="100%">
+          </div>
+          Top view of ENA.
+      </div>
+
+      <div class = "ena_inslrf-mob" style = "font-size: 16px; text-align: center;">
+          <div class = "project_widget-mob">
+            <img src = "woofiehead.jpg" height="100%" width="100%">
+          </div>
+          The inertial navigation system/laser range finder unit that goes at the front of the ENA, built casing out of products from Home Depot.
+      </div>
+
+
+      <div class = "ena_atwork-mob" style = "font-size: 16px; text-align: center;">
+          <div class = "project_widget-mob">
+            <img src = "atwork.jpg" height="100%" width="100%">
+          </div>
+          Working on the ENA in my basement laboratory. The entire device was built from commercially available products.
+      </div>
+
+      <div class = "ena_mess1-mob" style = "font-size: 16px; text-align: center;">
+          <div class = "project_widget-mob">
+            <img src = "messingaround1.jpg" height="100%" width="100%">
+          </div>
+          Ready, aim...
+      </div>
+
+      <div class = "ena_mess2-mob" style = "font-size: 16px; text-align: center;">
+          <div class = "project_widget-mob">
+            <img src = "messingaround2.jpg" height="100%" width="100%">
+          </div>
+          ...Fire!
+      </div>
+
+      <div class = "experiment-mob" style = "font-size: 16px; text-align: center;">
+          <div class = "project_widget-mob">
+            <img src = "experiment.jpg" height="100%" width="100%">
+          </div>
+          Experimental setup for testing device range.
+      </div>
+
+      <div class = "poster-mob" style = "font-size: 16px; text-align: center;">
+          <div class = "project_widget-mob">
+            <img src = "poster.jpg" height="100%" width="100%">
+          </div>
+          My science fair poster.
+      </div>
+
+      <div class = "storage-mob" style = "font-size: 16px; text-align: center;">
+          <div class = "project_widget-mob">
+            <img src = "storage.jpg" height="100%" width="100%">
+          </div>
+          Temporary storage for the ENA on a low budget.
+      </div>
+
+      <div class = "isef-mob" style = "font-size: 16px; text-align: center;">
+          <div class = "project_widget-mob">
+            <img src = "isef_jump.jpg" height="100%" width="100%">
+          </div>
+          Found my name on the sign at ISEF.
+      </div>
+    </div>
+    <div class = "spacer">
+    </div>
+    <div class = "downbutton">
+      <a href = "#ena_title_page-mob"><span></span>Back to Top</a>
+    </div>
   </section>
-  <div class = "paper_info-mob" align="center">
-  <a href = "http://isabelleparischong.com/researchpaper.pdf"> <u>View Research Paper Here </u></a>
 </div>
-
-<section id = "gallery-mob" class = "demo">
-  <div class = "gallery_title">
-    <h2>Photo Gallery</h2>
-  </div>
-
-  <div class = "ena_scad-mob" style = "font-size: 14px; text-align:center;">
-    <div class = "project_widget-mob">
-      <img src = "woofie-scad.jpg" height="100%" width="100%">
-    </div>
-    CAD sketch of ENA design.
-  </div>
-
-  <div class = "ena_full-mob" style = "font-size: 14px; text-align: center;">
-    <div class = "project_widget-mob">
-      <img src = "ena.jpg" height="100%" width="100%">
-    </div>
-    Full view of ENA.
-  </div>
-
-  <div class = "ena_full_flip-mob" style = "font-size: 14px; text-align: center;">
-      <div class = "project_widget-mob">
-        <img src = "enaflip.jpg" height="100%" width="100%">
-      </div>
-      Flipped view of ENA.
-  </div>
-
-  <div class = "ena_top-mob" style = "font-size: 14px;">
-      <div class = "project_widget-mob">
-        <img src = "enatop.jpg" height="40%" width="100%">
-      </div>
-      Top view of ENA.
-  </div>
-
-  <div class = "ena_inslrf-mob" style = "font-size: 10px; text-align: center;">
-      <div class = "project_widget-mob">
-        <img src = "woofiehead.jpg" height="100%" width="100%">
-      </div>
-      The inertial navigation system/laser range finder unit that goes at the front of the ENA, built casing out of products from Home Depot.
-  </div>
-
-
-  <div class = "ena_atwork-mob" style = "font-size: 10px; text-align: center;">
-      <div class = "project_widget-mob">
-        <img src = "atwork.jpg" height="100%" width="100%">
-      </div>
-      Working on the ENA in my basement laboratory. The entire device was built from commercially available products.
-  </div>
-
-  <div class = "ena_mess1-mob" style = "font-size: 14px; text-align: center;">
-      <div class = "project_widget-mob">
-        <img src = "messingaround1.jpg" height="100%" width="100%">
-      </div>
-      Ready, aim...
-  </div>
-
-  <div class = "ena_mess2-mob" style = "font-size: 14px; text-align: center;">
-      <div class = "project_widget-mob">
-        <img src = "messingaround2.jpg" height="100%" width="100%">
-      </div>
-      ...Fire!
-  </div>
-
-  <div class = "experiment-mob" style = "font-size: 12px; text-align: center;">
-      <div class = "project_widget-mob">
-        <img src = "experiment.jpg" height="100%" width="100%">
-      </div>
-      Experimental setup for testing device range.
-  </div>
-
-  <div class = "poster-mob" style = "font-size: 12px; text-align: center;">
-      <div class = "project_widget-mob">
-        <img src = "poster.jpg" height="100%" width="100%">
-      </div>
-      My science fair poster.
-  </div>
-
-  <div class = "storage-mob" style = "font-size: 11px; text-align: center;">
-      <div class = "project_widget-mob">
-        <img src = "storage.jpg" height="100%" width="100%">
-      </div>
-      Temporary storage for the ENA on a low budget.
-  </div>
-
-  <div class = "isef-mob" style = "font-size: 11px; text-align: center;">
-      <div class = "project_widget-mob">
-        <img src = "isef_jump.jpg" height="100%" width="100%">
-      </div>
-      Found my name on the sign at ISEF.
-  </div>
-  <a href = "#ena_title_page"><span></span>Back to Top</a>
-</section>
-
 
 
 

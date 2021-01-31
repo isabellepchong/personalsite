@@ -31,10 +31,10 @@
   <div class = "backbutton">
     <a href = "portfolio.html">&larr; Back to Portfolio</a>
   </div>
-
-   <section id = "fluid_title_page" class = "demo">
+  <div class = fluid_page>
+   <section id = "fluid_title_page-mob" class = "demo">
     <div class = "fluid_title-mob">
-      <h2>2D Grid-Based Fluid Simulator</h2>
+      <h2 style="text-align:center;">2D Grid-Based Fluid Simulator</h2>
     </div>
     <a href = "#overview_page_fluid-mob"><span></span>Overview</a>
   </section>
@@ -43,25 +43,31 @@
     <div class = "overview_fluid_title-mob">
       <h2>Overview</h2>
     </div>
-    <a href = "#paperfluid-mob"><span></span>Project Report</a>
-  </section>
-  <div class = "overview_fluid_info-mob" align = "center">
-    <p align = "center" style = "font-size:13px;">This project was the final project for the class 6.837: Computer Graphics. It took a two person team 2.5 weeks to complete. Fluids can be quite difficult to procedurally animate, especially for grid-based designs, because they rely on an Eulerian rather than a Lagrangian model. Our goal for this project was to create a 2D grid-based fluid solver that would follow the Eulerian model to update the different values in its voxel grid, creating a stable, incompressible 2D fluid simulation. Our particular approach was based off of Jos Stam's "Real Time Fluid Dynamics for Games" (2003), creating a fluid motion model that simulated the dropping of a dye into a fluid under a variety of conditions.</p>
+    <div class = "overview_fluid_subtitle-mob">
+      <h6 style="text-align:center;">(scroll until next arrow if needed)</h6>
+    </div>
+    <div class = "overview_fluid_info-mob" align = "center">
+    <p align = "center" style = "font-size:16px;" margin-bottom="200px">This project was the final project for the class 6.837: Computer Graphics. It took a two person team 2.5 weeks to complete. Fluids can be quite difficult to procedurally animate, especially for grid-based designs, because they rely on an Eulerian rather than a Lagrangian model. Our goal for this project was to create a 2D grid-based fluid solver that would follow the Eulerian model to update the different values in its voxel grid, creating a stable, incompressible 2D fluid simulation. Our particular approach was based off of Jos Stam's "Real Time Fluid Dynamics for Games" (2003), creating a fluid motion model that simulated the dropping of a dye into a fluid under a variety of conditions.</p>
   </div>
+  <div class = "downbutton">
+    <a href = "#paperfluid-mob"><span></span>Project Report</a>
+  </div>
+  </section>
+  
 
   <section id = "paperfluid-mob" class = "demo">
     <div class = "paperfluid_title-mob">
       <h2>Project Report</h2>
     </div>
+    <div class = "paperfluid_info-mob" align="center">
+      <a href = "http://isabelleparischong.com/6.837%20Project%20Writeup.pdf" style="color:white;"> <u>View Project Report Here </u></a>
+    </div>
     <a href = "#galleryfluid-mob"><span></span>Demonstration</a>
   </section>
-  <div class = "paperfluid_info-mob" align="center">
-  <a href = "http://isabelleparischong.com/6.837%20Project%20Writeup.pdf"> <u>View Project Report Here </u></a>
-</div>
 
 
 <section id = "galleryfluid-mob" class = "demo">
-  <div class = "galleryfluid_title">
+  <div class = "galleryfluid_title-mob">
     <h2>Demonstration</h2>
   </div>
 
@@ -79,9 +85,11 @@
      <div class = "video_fluid_caption-mob">
         <p style = "text-align:center; font-size:13px;">From left to right: general fluid motion and collision with objects, dam breaking, and wind vortex simulations</p>
       </div>
-
-  <a href = "#fluid_title_page"><span></span>Back to Top</a>
+<div class = "downbutton">
+  <a href = "#fluid_title_page-mob"><span></span>Back to Top</a>
+</div>
 </section>
+</div>
 
   <!-- Optional JavaScript -->
 <!-- jQuery first, then Popper.js, then Bootstrap JS -->

@@ -32,53 +32,62 @@
     <a href = "portfolio.html">&larr; Back to Portfolio</a>
   </div>
 
-   <section id = "mario_title_page" class = "demo">
-    <div class = "mario_title-mob">
-      <h2>Super Mario Bros in Real Life on a Field Programmable Gate Array (FPGA)</h2>
-    </div>
-    <a href = "#overview_page_mario-mob"><span></span>Overview</a>
-  </section>
-
-  <section id = "overview_page_mario-mob" class = "demo">
-    <div class = "overview_mario_title-mob">
-      <h2>Overview</h2>
-    </div>
-    <div class = "overview_mario_subtitle-mob">
-      <h6>(scroll until next arrow)</h6>
-    </div>
-    <a href = "#papermario-mob"><span></span>Project Report</a>
-  </section>
-  <div class = "overview_mario_info" align = "center">
-    <p align = "center" style = "font-size:14px;">This project was the final project for the class 6.111: Introductory Digital Systems Laboratory and took a three person team 5 weeks to complete. The goal of the project was to recreate the side-scrolling Mario Bros Classic game for Nintendo with several added functionalities. We programmed this project on the Nexys4-DDR FPGA using the XVGA display to host the game graphics. Throughout the project, we made use of both internal and external memory in our game functionality, using the Nexys4-DDR’s internal BRAM to store game graphics and the overall map of our level, and an SD card to store audio for the Super Mario Bros theme. We also programmed the game so it could be controlled using both the built-in buttons on the FPGA and a Teensy-interfaced IMU. For this project, I was in charge of sprite generation, IMU controls, and SD card game audio.</p>
-  </div>
-
-  <section id = "papermario-mob" class = "demo">
-    <div class = "papermario_title-mob">
-      <h2>Project Report</h2>
-    </div>
-    <a href = "#gallerymario-mob"><span></span>Demonstration</a>
-  </section>
-  <div class = "papermario_info-mob" align="center">
-  <a href = "http://isabelleparischong.com/projectreport.pdf"> <u>View Project Report Here </u></a>
-</div>
-
-
-<section id = "gallerymario-mob" class = "demo">
-  <div class = "gallerymario_title">
-    <h2>Demonstration</h2>
-  </div>
-
-  <div class = "video_mario-mob">
-      <video controls height="130%" width="130%">
-        <source src = "mario.mp4" type = "video/mp4">
-      </video>
-      <div class = "video_mario_caption-mob">
-        <p style = "text-align:center; font-size:13px;">(I originally made this video for my mom)</p>
+  <div class = "mario_page">
+     <section id = "mario_title_page-mob" class = "demo">
+      <div class = "mario_title-mob">
+        <h2 style="text-align:center;">Super Mario Bros in Real Life on a Field Programmable Gate Array (FPGA)</h2>
       </div>
+      <div class = "downbutton">
+        <a href = "#overview_page_mario-mob"><span></span>Overview</a>
+      </div>
+    </section>
+
+    <section id = "overview_page_mario-mob" class = "demo">
+      <div class = "overview_mario_title-mob">
+        <h2>Overview</h2>
+      </div>
+      <div class = "overview_mario_subtitle-mob">
+        <h6 style="text-align:center;">(scroll until next arrow if needed)</h6>
+      </div>
+      <div class = "overview_mario_info-mob" align = "center">
+      <p align = "center" style = "font-size:16px;">This project was the final project for the class 6.111: Introductory Digital Systems Laboratory and took a three person team 5 weeks to complete. The goal of the project was to recreate the side-scrolling Mario Bros Classic game for Nintendo with several added functionalities. We programmed this project on the Nexys4-DDR FPGA using the XVGA display to host the game graphics. Throughout the project, we made use of both internal and external memory in our game functionality, using the Nexys4-DDR’s internal BRAM to store game graphics and the overall map of our level, and an SD card to store audio for the Super Mario Bros theme. We also programmed the game so it could be controlled using both the built-in buttons on the FPGA and a Teensy-interfaced IMU. For this project, I was in charge of sprite generation, IMU controls, and SD card game audio.</p>
+    </div>
+      <div class = "downbutton">
+        <a href = "#papermario-mob"><span></span>Project Report</a>
+      </div>
+    </section>
+
+    <section id = "papermario-mob" class = "demo">
+      <div class = "papermario_title-mob">
+        <h2>Project Report</h2>
+      </div>
+      <div class = "papermario_info-mob" align="center">
+        <a href = "http://isabelleparischong.com/projectreport.pdf" style="color:white;"> <u>View Project Report Here </u></a>
+      </div>
+      <div class = "downbutton">
+        <a href = "#gallerymario-mob"><span></span>Demonstration</a>
+      </div>
+    </section>
+  </div>
+
+
+  <section id = "gallerymario-mob" class = "demo">
+    <div class = "gallerymario_title-mob">
+      <h2>Demonstration</h2>
     </div>
 
-  <a href = "#mario_title_page"><span></span>Back to Top</a>
-</section>
+    <div class = "video_mario-mob">
+        <video controls height="100%" width="100%">
+          <source src = "mario.mp4" type = "video/mp4">
+        </video>
+        <div class = "video_mario_caption-mob">
+          <p style = "text-align:center; font-size:13px;">(I originally made this video for my mom)</p>
+        </div>
+      </div>
+
+    <a href = "#mario_title_page-mob"><span></span>Back to Top</a>
+  </section>
+</div>
 
   <!-- Optional JavaScript -->
 <!-- jQuery first, then Popper.js, then Bootstrap JS -->

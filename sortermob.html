@@ -32,41 +32,46 @@
     <a href = "portfolio.html">&larr; Back to Portfolio</a>
   </div>
 
-  <section id = "sorter_title_page" class = "demo">
-    <div class = "sorter_title-mob" style = "text-align: center;">
-      <h2>Screw Sorter Project</h2>
-    </div>
-    <a href = "#overview_page_sorter-mob"><span></span>Overview</a>
-  </section>
+  <div class = "sorter_page">
+    <section id = "sorter_title_page-mob" class = "demo">
+      <div class = "sorter_title-mob" style = "text-align: center;">
+        <h2>Screw Sorter Project</h2>
+      </div>
+      <a href = "#overview_page_sorter-mob"><span></span>Overview</a>
+    </section>
 
-  <section id = "overview_page_sorter-mob" class = "demo">
-    <div class = "overview_sorter_title-mob" style = "text-align: center;">
-      <h2>Overview</h2>
-    </div>
-    <div class = "overview_sorter_subtitle-mob" style = "text-align: center;">
-      <h6>(scroll until next arrow)</h6>
-    </div>
-    <div class = "overview_sorter_info-mob">
-        <p align = "center" style = "font-size:14px;">This project was done as part of my internship at AC Kinetics, a local engineering company based in Armonk, NY. I was part of a team of four high school students that worked on a project to build a machine that could sort screws. We used the Wolfram Mathematica neural network program in order to classify multi-colored wire caps (as part of an initial test) and screws of different sizes. We then built a wooden sorting bin apparatus and programmed an Arduino to control two servo motors that would move the wooden structure so the screws could be dropped into the proper bins. We found that the trickiest part of the project was getting the neural network to properly classify the screws, as they were extremely similar in color and design. The Mathematica network performed much better with the wire caps, which were drastically different colors. Even after training the network on more than 100 photos, we were not able to get the apparatus to classify the screws with the same accuracy with which they were able to classify the wire caps with only a few. Ultimately, this project was an extremely interesting foray into machine learning and helped us as interns learn more about the process of engineering a device.</p>
-    </div>
-    <a href = "#photo_sorter-mob"><span></span>Photo Gallery</a>
-  </section>
+    <section id = "overview_page_sorter-mob" class = "demo">
+      <div class = "overview_sorter_title-mob" style = "text-align: center;">
+        <h2>Overview</h2>
+      </div>
+      <div class = "overview_sorter_subtitle-mob" style = "text-align: center;">
+        <h6>(scroll until next arrow if needed)</h6>
+      </div>
+      <div class = "overview_sorter_info-mob">
+          <p align = "center" style = "font-size:16px;">This project was done as part of my internship at AC Kinetics, a local engineering company based in Armonk, NY. I was part of a team of four high school students that worked on a project to build a machine that could sort screws. We used the Wolfram Mathematica neural network program in order to classify multi-colored wire caps (as part of an initial test) and screws of different sizes. We then built a wooden sorting bin apparatus and programmed an Arduino to control two servo motors that would move the wooden structure so the screws could be dropped into the proper bins. We found that the trickiest part of the project was getting the neural network to properly classify the screws, as they were extremely similar in color and design. The Mathematica network performed much better with the wire caps, which were drastically different colors. Even after training the network on more than 100 photos, we were not able to get the apparatus to classify the screws with the same accuracy with which they were able to classify the wire caps with only a few. Ultimately, this project was an extremely interesting foray into machine learning and helped us as interns learn more about the process of engineering a device.</p>
+      </div>
+      <div class = "downbutton">
+        <a href = "#photo_sorter-mob"><span></span>Photo Gallery</a>
+      </div>
+    </section>
 
-  <section id = "photo_sorter-mob" class = "demo">
-    <div class = "photo_gallery_sorter_title">
-      <h2>Photo Gallery</h2>
-    </div>
-    <div class = "photo_sorter-mob">
-      <img src = "sorter.jpg" height="70%" width="70%">
-    </div>
-    <div class = "video_sorter-mob">
-      <video controls height="130%" width="130%">
-        <source src = "sorter.mp4" type = "video/mp4">
-      </video>
-    </div>
-    <a href = "#sorter_title_page"><span></span>Back to Top</a>
-  </section>
-
+    <section id = "photo_sorter-mob" class = "demo">
+      <div class = "photo_gallery_sorter_title-mob">
+        <h2>Photo Gallery</h2>
+      </div>
+      <div class = "photo_sorter-mob">
+        <img src = "sorter.jpg" height="50%" width="50%" margin="auto">
+      </div>
+      <div class = "video_sorter-mob">
+        <video controls height="75%" width="75%" margin="auto">
+          <source src = "sorter.mp4" type = "video/mp4">
+        </video>
+      </div>
+      <div class = "downbutton">
+        <a href = "#sorter_title_page-mob"><span></span>Back to Top</a>
+      </div>
+    </section>
+  </div>
 
    <!-- Optional JavaScript -->
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
